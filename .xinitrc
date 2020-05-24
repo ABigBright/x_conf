@@ -8,5 +8,6 @@
 #. /etc/X11/Xsession
 
 albert &
+fcitx &
 
 exec /usr/local/bin/dwm
