@@ -7,7 +7,8 @@
 # invoke global X session script
 #. /etc/X11/Xsession
 
-albert &
-fcitx &
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 
 exec /usr/local/bin/dwm
